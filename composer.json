@@ -1,0 +1,25 @@
+{
+	"name": "ytian/xls2json",
+	"description": "read xls and transform to json",
+	"keywords": ["spreadsheet", "xls", "xlsx", "ods", "csv", "excel", "openoffice", "json"],
+	"homepage": "https://github.com/ytian/xls2json",
+	"version": "0.1",
+	"type": "library",
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "ytian",
+			"email": "tianyebj@gmail.com"
+		}
+	],
+	"support": {
+		"email": "tianyebj@gmail.com"
+	},
+	"require": {
+		"php": ">= 5.3.0",
+		"nuovo/spreadsheet-reader": ">= 0.5.11"
+	},
+	"autoload": {
+		"classmap": ["./"]
+	}
+}
