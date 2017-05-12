@@ -7,7 +7,7 @@ class Xls2Json {
     const MAP_MODE = 1; //transform to map format
     const ARR_MODE = 2; //tranform to array format
     /**
-        process xls file to json array
+    * process xls file to json array
     */
     public static function process($xlsFile, $mode = self::MAP_MODE) {
         $reader = new SpreadsheetReader($xlsFile);
